@@ -1,3 +1,5 @@
+*The estimation is implemented using Stata 16
+
 * Load the data
 import delimited "./covid_data.csv", clear
 
