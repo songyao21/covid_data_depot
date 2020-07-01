@@ -29,3 +29,5 @@ if min < 0 {
 }
 
 drop new_report min_new_case
+
+save ./county_cases_negative_removed, replace
