@@ -10,7 +10,7 @@ rain "daily amount of rainfall at county-date level"
 social_distancing "metric of social_distancing"
 county_population "County population"
 
-NOTE: social_distancing variable cannot be shared due to the data provider, SafeGraph's request. However, SafeGraph is allowing academic COVID-19 researchers to get access to the data for free by signing up at https://www.safegraph.com/covid-19-data-consortium. The mean, standard deviation, minimum and maximum of the variable are reported in "Data Source Description.pdf" on this repository. 
+NOTE: social_distancing variable cannot be shared due to the data provider, SafeGraph's request. However, SafeGraph is allowing academic COVID-19 researchers to get access to the data for free by signing up at https://www.safegraph.com/covid-19-data-consortium. The mean, standard deviation, minimum and maximum of the variable are reported in "Tech_Appendix.pdf" on this repository. 
 
 
 Content of county_cases.csv
