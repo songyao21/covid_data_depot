@@ -30,5 +30,6 @@
 *.pdf
 *.txt
 
-*MacOS specific
+#MacOS specific
+*.DS_Store
 .DS_Store
