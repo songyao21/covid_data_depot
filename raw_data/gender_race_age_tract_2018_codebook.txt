@@ -1,0 +1,345 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0005_ds239_20185_2018_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2014-2018
+Geographic level: Census Tract (by State--County)
+Dataset:          2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+   NHGIS code:    2014_2018_ACS5a
+   NHGIS ID:      ds239
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Sex by Age
+   Universe:    Total population
+   Source code: B01001
+   NHGIS code:  AJWB
+ 
+2. Race
+   Universe:    Total population
+   Source code: B02001
+   NHGIS code:  AJWN
+ 
+3. Hispanic or Latino Origin by Race
+   Universe:    Total population
+   Source code: B03002
+   NHGIS code:  AJWV
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2019-2021, 116th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PUMA5A:      Public Use Microdata Sample Area (PUMA) Code
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Sex by Age
+    Universe:    Total population
+    Source code: B01001
+    NHGIS code:  AJWB
+        AJWBE001:    Total
+        AJWBE002:    Male
+        AJWBE003:    Male: Under 5 years
+        AJWBE004:    Male: 5 to 9 years
+        AJWBE005:    Male: 10 to 14 years
+        AJWBE006:    Male: 15 to 17 years
+        AJWBE007:    Male: 18 and 19 years
+        AJWBE008:    Male: 20 years
+        AJWBE009:    Male: 21 years
+        AJWBE010:    Male: 22 to 24 years
+        AJWBE011:    Male: 25 to 29 years
+        AJWBE012:    Male: 30 to 34 years
+        AJWBE013:    Male: 35 to 39 years
+        AJWBE014:    Male: 40 to 44 years
+        AJWBE015:    Male: 45 to 49 years
+        AJWBE016:    Male: 50 to 54 years
+        AJWBE017:    Male: 55 to 59 years
+        AJWBE018:    Male: 60 and 61 years
+        AJWBE019:    Male: 62 to 64 years
+        AJWBE020:    Male: 65 and 66 years
+        AJWBE021:    Male: 67 to 69 years
+        AJWBE022:    Male: 70 to 74 years
+        AJWBE023:    Male: 75 to 79 years
+        AJWBE024:    Male: 80 to 84 years
+        AJWBE025:    Male: 85 years and over
+        AJWBE026:    Female
+        AJWBE027:    Female: Under 5 years
+        AJWBE028:    Female: 5 to 9 years
+        AJWBE029:    Female: 10 to 14 years
+        AJWBE030:    Female: 15 to 17 years
+        AJWBE031:    Female: 18 and 19 years
+        AJWBE032:    Female: 20 years
+        AJWBE033:    Female: 21 years
+        AJWBE034:    Female: 22 to 24 years
+        AJWBE035:    Female: 25 to 29 years
+        AJWBE036:    Female: 30 to 34 years
+        AJWBE037:    Female: 35 to 39 years
+        AJWBE038:    Female: 40 to 44 years
+        AJWBE039:    Female: 45 to 49 years
+        AJWBE040:    Female: 50 to 54 years
+        AJWBE041:    Female: 55 to 59 years
+        AJWBE042:    Female: 60 and 61 years
+        AJWBE043:    Female: 62 to 64 years
+        AJWBE044:    Female: 65 and 66 years
+        AJWBE045:    Female: 67 to 69 years
+        AJWBE046:    Female: 70 to 74 years
+        AJWBE047:    Female: 75 to 79 years
+        AJWBE048:    Female: 80 to 84 years
+        AJWBE049:    Female: 85 years and over
+ 
+    Table 2:     Race
+    Universe:    Total population
+    Source code: B02001
+    NHGIS code:  AJWN
+        AJWNE001:    Total
+        AJWNE002:    White alone
+        AJWNE003:    Black or African American alone
+        AJWNE004:    American Indian and Alaska Native alone
+        AJWNE005:    Asian alone
+        AJWNE006:    Native Hawaiian and Other Pacific Islander alone
+        AJWNE007:    Some other race alone
+        AJWNE008:    Two or more races
+        AJWNE009:    Two or more races: Two races including Some other race
+        AJWNE010:    Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 3:     Hispanic or Latino Origin by Race
+    Universe:    Total population
+    Source code: B03002
+    NHGIS code:  AJWV
+        AJWVE001:    Total
+        AJWVE002:    Not Hispanic or Latino
+        AJWVE003:    Not Hispanic or Latino: White alone
+        AJWVE004:    Not Hispanic or Latino: Black or African American alone
+        AJWVE005:    Not Hispanic or Latino: American Indian and Alaska Native alone
+        AJWVE006:    Not Hispanic or Latino: Asian alone
+        AJWVE007:    Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        AJWVE008:    Not Hispanic or Latino: Some other race alone
+        AJWVE009:    Not Hispanic or Latino: Two or more races
+        AJWVE010:    Not Hispanic or Latino: Two or more races: Two races including Some other race
+        AJWVE011:    Not Hispanic or Latino: Two or more races: Two races excluding Some other race, and three or more races
+        AJWVE012:    Hispanic or Latino
+        AJWVE013:    Hispanic or Latino: White alone
+        AJWVE014:    Hispanic or Latino: Black or African American alone
+        AJWVE015:    Hispanic or Latino: American Indian and Alaska Native alone
+        AJWVE016:    Hispanic or Latino: Asian alone
+        AJWVE017:    Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        AJWVE018:    Hispanic or Latino: Some other race alone
+        AJWVE019:    Hispanic or Latino: Two or more races
+        AJWVE020:    Hispanic or Latino: Two or more races: Two races including Some other race
+        AJWVE021:    Hispanic or Latino: Two or more races: Two races excluding Some other race, and three or more races
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Sex by Age
+    Universe:    Total population
+    Source code: B01001
+    NHGIS code:  AJWB
+        AJWBM001:    Total
+        AJWBM002:    Male
+        AJWBM003:    Male: Under 5 years
+        AJWBM004:    Male: 5 to 9 years
+        AJWBM005:    Male: 10 to 14 years
+        AJWBM006:    Male: 15 to 17 years
+        AJWBM007:    Male: 18 and 19 years
+        AJWBM008:    Male: 20 years
+        AJWBM009:    Male: 21 years
+        AJWBM010:    Male: 22 to 24 years
+        AJWBM011:    Male: 25 to 29 years
+        AJWBM012:    Male: 30 to 34 years
+        AJWBM013:    Male: 35 to 39 years
+        AJWBM014:    Male: 40 to 44 years
+        AJWBM015:    Male: 45 to 49 years
+        AJWBM016:    Male: 50 to 54 years
+        AJWBM017:    Male: 55 to 59 years
+        AJWBM018:    Male: 60 and 61 years
+        AJWBM019:    Male: 62 to 64 years
+        AJWBM020:    Male: 65 and 66 years
+        AJWBM021:    Male: 67 to 69 years
+        AJWBM022:    Male: 70 to 74 years
+        AJWBM023:    Male: 75 to 79 years
+        AJWBM024:    Male: 80 to 84 years
+        AJWBM025:    Male: 85 years and over
+        AJWBM026:    Female
+        AJWBM027:    Female: Under 5 years
+        AJWBM028:    Female: 5 to 9 years
+        AJWBM029:    Female: 10 to 14 years
+        AJWBM030:    Female: 15 to 17 years
+        AJWBM031:    Female: 18 and 19 years
+        AJWBM032:    Female: 20 years
+        AJWBM033:    Female: 21 years
+        AJWBM034:    Female: 22 to 24 years
+        AJWBM035:    Female: 25 to 29 years
+        AJWBM036:    Female: 30 to 34 years
+        AJWBM037:    Female: 35 to 39 years
+        AJWBM038:    Female: 40 to 44 years
+        AJWBM039:    Female: 45 to 49 years
+        AJWBM040:    Female: 50 to 54 years
+        AJWBM041:    Female: 55 to 59 years
+        AJWBM042:    Female: 60 and 61 years
+        AJWBM043:    Female: 62 to 64 years
+        AJWBM044:    Female: 65 and 66 years
+        AJWBM045:    Female: 67 to 69 years
+        AJWBM046:    Female: 70 to 74 years
+        AJWBM047:    Female: 75 to 79 years
+        AJWBM048:    Female: 80 to 84 years
+        AJWBM049:    Female: 85 years and over
+ 
+    Table 2:     Race
+    Universe:    Total population
+    Source code: B02001
+    NHGIS code:  AJWN
+        AJWNM001:    Total
+        AJWNM002:    White alone
+        AJWNM003:    Black or African American alone
+        AJWNM004:    American Indian and Alaska Native alone
+        AJWNM005:    Asian alone
+        AJWNM006:    Native Hawaiian and Other Pacific Islander alone
+        AJWNM007:    Some other race alone
+        AJWNM008:    Two or more races
+        AJWNM009:    Two or more races: Two races including Some other race
+        AJWNM010:    Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 3:     Hispanic or Latino Origin by Race
+    Universe:    Total population
+    Source code: B03002
+    NHGIS code:  AJWV
+        AJWVM001:    Total
+        AJWVM002:    Not Hispanic or Latino
+        AJWVM003:    Not Hispanic or Latino: White alone
+        AJWVM004:    Not Hispanic or Latino: Black or African American alone
+        AJWVM005:    Not Hispanic or Latino: American Indian and Alaska Native alone
+        AJWVM006:    Not Hispanic or Latino: Asian alone
+        AJWVM007:    Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        AJWVM008:    Not Hispanic or Latino: Some other race alone
+        AJWVM009:    Not Hispanic or Latino: Two or more races
+        AJWVM010:    Not Hispanic or Latino: Two or more races: Two races including Some other race
+        AJWVM011:    Not Hispanic or Latino: Two or more races: Two races excluding Some other race, and three or more races
+        AJWVM012:    Hispanic or Latino
+        AJWVM013:    Hispanic or Latino: White alone
+        AJWVM014:    Hispanic or Latino: Black or African American alone
+        AJWVM015:    Hispanic or Latino: American Indian and Alaska Native alone
+        AJWVM016:    Hispanic or Latino: Asian alone
+        AJWVM017:    Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        AJWVM018:    Hispanic or Latino: Some other race alone
+        AJWVM019:    Hispanic or Latino: Two or more races
+        AJWVM020:    Hispanic or Latino: Two or more races: Two races including Some other race
+        AJWVM021:    Hispanic or Latino: Two or more races: Two races excluding Some other race, and three or more races
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 14.0 
+        [Database]. Minneapolis, MN: IPUMS. 2019. 
+        http://doi.org/10.18128/D050.V14.0
+
+    * Publications and research reports employing school attendance areas data 
+      (either tabular or GIS) must cite it appropriately. The citation should 
+      include the following:
+
+        The College of William and Mary and the Minnesota Population Center.
+        School Attendance Boundary Information System (SABINS): Version 1.0.
+        Minneapolis, MN: University of Minnesota 2011.
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+    * If possible, citations involving school attendance areas should also include
+      the URL for the SABINS site:
+
+        http://www.sabinsdata.org/.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
