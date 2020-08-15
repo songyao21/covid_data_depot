@@ -23,7 +23,7 @@
 *.tar
 *.zip
 *.dta
-*.csv
+#*.csv
 
 #tables and figures
 *.xml
